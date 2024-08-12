@@ -1,0 +1,142 @@
+[
+  {
+    "productName": "Wine - Conde De Valdemar",
+    "qty": 85,
+    "price": 71000,
+    "date": "2024-06-01",
+    "CustomerId": 2
+  },
+  {
+    "productName": "Trueblue - Blueberry Cranberry",
+    "qty": 38,
+    "price": 30000,
+    "date": "2024-04-17",
+    "CustomerId": 1
+  },
+  {
+    "productName": "Langers - Cranberry Cocktail",
+    "qty": 15,
+    "price": 84000,
+    "date": "2023-11-16",
+    "CustomerId": 1
+  },
+  {
+    "productName": "Scallops 60/80 Iqf",
+    "qty": 13,
+    "price": 90000,
+    "date": "2023-12-05",
+    "CustomerId": 2
+  },
+  {
+    "productName": "Green Scrubbie Pad H.duty",
+    "qty": 71,
+    "price": 34000,
+    "date": "2024-01-04",
+    "CustomerId": 3
+  },
+  {
+    "productName": "Country Roll",
+    "qty": 24,
+    "price": 57000,
+    "date": "2024-06-23",
+    "CustomerId": 5
+  },
+  {
+    "productName": "Wine - Prosecco Valdobienne",
+    "qty": 83,
+    "price": 33000,
+    "date": "2024-05-25",
+    "CustomerId": 3
+  },
+  {
+    "productName": "Tomatoes - Roma",
+    "qty": 29,
+    "price": 28000,
+    "date": "2024-02-09",
+    "CustomerId": 2
+  },
+  {
+    "productName": "Dill Weed - Fresh",
+    "qty": 67,
+    "price": 67000,
+    "date": "2023-12-12",
+    "CustomerId": 5
+  },
+  {
+    "productName": "Rice - Sushi",
+    "qty": 23,
+    "price": 73000,
+    "date": "2023-12-18",
+    "CustomerId": 5
+  },
+  {
+    "productName": "Croissant, Raw - Mini",
+    "qty": 18,
+    "price": 55000,
+    "date": "2023-12-10",
+    "CustomerId": 5
+  },
+  {
+    "productName": "Oranges - Navel, 72",
+    "qty": 34,
+    "price": 65000,
+    "date": "2024-01-11",
+    "CustomerId": 3
+  },
+  {
+    "productName": "Cheese - Roquefort Pappillon",
+    "qty": 69,
+    "price": 50000,
+    "date": "2023-09-21",
+    "CustomerId": 1
+  },
+  {
+    "productName": "Garam Marsala",
+    "qty": 81,
+    "price": 25000,
+    "date": "2024-06-14",
+    "CustomerId": 1
+  },
+  {
+    "productName": "Juice - Apple, 341 Ml",
+    "qty": 72,
+    "price": 29000,
+    "date": "2023-10-08",
+    "CustomerId": 3
+  },
+  {
+    "productName": "Wine - Chateau Aqueria Tavel",
+    "qty": 93,
+    "price": 62000,
+    "date": "2024-04-09",
+    "CustomerId": 2
+  },
+  {
+    "productName": "Hickory Smoke, Liquid",
+    "qty": 65,
+    "price": 76000,
+    "date": "2024-04-18",
+    "CustomerId": 3
+  },
+  {
+    "productName": "Sprouts - Pea",
+    "qty": 50,
+    "price": 39000,
+    "date": "2024-01-24",
+    "CustomerId": 2
+  },
+  {
+    "productName": "Chicken - Soup Base",
+    "qty": 93,
+    "price": 39000,
+    "date": "2024-01-04",
+    "CustomerId": 2
+  },
+  {
+    "productName": "Tea - Herbal Sweet Dreams",
+    "qty": 25,
+    "price": 20000,
+    "date": "2024-06-17",
+    "CustomerId": 4
+  }
+]

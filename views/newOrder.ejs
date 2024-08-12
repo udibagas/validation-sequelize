@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Order</title>
+  </head>
+  <body>
+    <h1>New Order</h1>
+
+    <% if (errors) { %>
+    <p><%= errors %></p>
+    <% } %>
+
+    <form method="post">
+      <p>
+        <label for="date">Date</label> <br />
+        <input type="date" name="date" value="<%= data.date %>" />
+      </p>
+
+      <p>
+        <label for="CustomerId">Date</label> <br />
+        <select name="CustomerId" id="CustomerId">
+          <option value="" selected disabled>-- Select Customer --</option>
+          <% customers.forEach(({id, name}) => { %>
+          <option value="<%= id %>"><%= name %></option>
+          <% }) %>
+        </select>
+      </p>
+
+      <p>
+        <label for="productName">Product Name</label> <br />
+        <input type="text" name="productName" value="<%= data.productName %>" />
+      </p>
+
+      <p>
+        <label for="qty">Qty</label> <br />
+        <input type="number" name="qty" />
+      </p>
+
+      <p>
+        <label for="price">Price</label> <br />
+        <input type="number" name="price" />
+      </p>
+
+      <p>
+        <button type="submit">Save</button>
+      </p>
+    </form>
+  </body>
+</html>

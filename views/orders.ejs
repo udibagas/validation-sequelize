@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orders</title>
+  </head>
+  <body>
+    <h1>Orders</h1>
+
+    <p>
+      <a href="/new-order">New Order</a>
+    </p>
+
+    <div
+      style="
+        border: 1px solid #ddd;
+        padding: 5px;
+        width: 500px;
+        margin-bottom: 20px;
+      "
+    >
+      Total Order = <%= toRupiah(totalOrder.totalOrder) %> <br />
+      Min order = Rp ? <br />
+      Max order = Rp ? <br />
+      Rata - rata order = Rp ?
+    </div>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Date</th>
+          <th>Customer</th>
+          <th>Product</th>
+          <th>Qty</th>
+          <th>Price</th>
+          <th>Total Amount</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% orders.forEach((el, index) => { %>
+        <tr>
+          <td><%= index + 1 %></td>
+          <td><%= el.formattedDate %></td>
+          <td><%= el.Customer.name %></td>
+          <td><%= el.productName %></td>
+          <td><%= el.qty %></td>
+          <td><%= toRupiah(el.price) %></td>
+          <td><%= toRupiah(el.totalAmount) %></td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </body>
+</html>
